@@ -16,7 +16,7 @@ import { Tooltip } from "react-tooltip";
 
 export default function MainHeader() {
   return (
-    <div className=" m-10">
+    <div className="m-10">
       <h1 className="font-bold text-2xl md:text-3xl mb-4">
         Hi My Name is Swikar 🫰
       </h1>

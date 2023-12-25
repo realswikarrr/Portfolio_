@@ -1,5 +1,6 @@
 import MainHeader from "@/components/MainHeader";
 import NavBar from "@/components/NavBar";
+import ProjectPage from "@/components/ProjectPage";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="w-[80%] md:w-[45rem]">
       <NavBar />
       <MainHeader />
+      <ProjectPage />
     </main>
   );
 }
