@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
@@ -13,9 +14,17 @@ export default function NavBar() {
             </h1>
           </div>
           <div className="flex space-x-3 text-2xl cursor-pointer">
-            <FaGithub className=" opacity-50 hover:opacity-100" />
-            <FaLinkedin className=" opacity-50 hover:opacity-100" />
-            <MdOutlineEmail className=" opacity-50 hover:opacity-100" />
+            <Link href="https://github.com/realswikarrr" target="_">
+              <FaGithub className=" opacity-50 hover:opacity-100" />
+            </Link>
+
+            <Link href="https://www.linkedin.com/in/swikarrr/" target="_">
+              <FaLinkedin className=" opacity-50 hover:opacity-100" />
+            </Link>
+
+            <Link href="mailto:swikarbusiness@gmail.com" target="_">
+              <MdOutlineEmail className=" opacity-50 hover:opacity-100" />
+            </Link>
           </div>
         </nav>
       </div>
