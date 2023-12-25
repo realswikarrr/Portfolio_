@@ -32,16 +32,16 @@ export default function MainHeader() {
         using.
       </p>
       <div className="w-full space-x-4 items-center text-2xl flex flex-wrap flex-row justify-center p-2 border border-slate-800 rounded-md bg-white/10 dark:bg-black/10 mb-12">
-        <SiNextdotjs className="my_next" />
-        <SiTypescript className="my_typescript" />
-        <SiTailwindcss className="my_tailwind" />
-        <SiJavascript className="my_javascript" />
-        <SiGit className="my_git" />
-        <SiNodedotjs className="my_node" />
-        <SiPython className="my_python" />
-        <SiVisualstudiocode className="my_vscode" />
-        <SiGithubactions className="my_githubaction" />
-        <SiNpm className="my_npm" />
+        <SiNextdotjs className="my_next mt-3 md:mt-0" />
+        <SiTypescript className="my_typescript mt-3 md:mt-0" />
+        <SiTailwindcss className="my_tailwind mt-3 md:mt-0" />
+        <SiJavascript className="my_javascript mt-3 md:mt-0" />
+        <SiGit className="my_git mt-3 md:mt-0" />
+        <SiNodedotjs className="my_node mt-3 md:mt-0" />
+        <SiPython className="my_python mt-3 md:mt-0" />
+        <SiVisualstudiocode className="my_vscode mt-3 md:mt-0" />
+        <SiGithubactions className="my_githubaction mt-3 md:mt-0" />
+        <SiNpm className="my_npm mt-3 md:mt-0" />
       </div>
       <Tooltip anchorSelect=".my_next" place="top">
         Next Js
