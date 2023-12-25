@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import MainHeader from "@/components/MainHeader";
 import NavBar from "@/components/NavBar";
 import ProjectPage from "@/components/ProjectPage";
@@ -9,6 +10,7 @@ export default function Home() {
       <NavBar />
       <MainHeader />
       <ProjectPage />
+      <Footer />
     </main>
   );
 }
